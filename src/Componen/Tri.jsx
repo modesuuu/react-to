@@ -67,7 +67,7 @@ export default function Tri(){
         <nav className="container mx-auto" x-data="{navOpen : true}">
           <div className="pt-3 px-4 lg:hidden">
             <a>
-              <img  src={togle} alt="" /> 
+              <img  src={togle} alt="not" /> 
             </a>
           </div>
 
@@ -147,7 +147,7 @@ export default function Tri(){
           <section className="container px-4 mx-auto lg:h-[181px] mt-8 lg:order-1">
               <div className=" flex gap-6 items-center p-4 lg:px-16 lg:gap-20 rounded-xl bg-green justify-between">
                   <p className="text-clear-/white leading-[128%] font-semibold text-sm lg:text-2xl ">“ Torem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est“</p>
-                  <img className=" w-1/2 " src={img} alt="" />
+                  <img className=" w-1/2 " src={img} alt="not" />
               </div>
           </section>
 
@@ -174,7 +174,7 @@ export default function Tri(){
                             <p className="text-xs text-grey">{li.time}</p>
                           </div>
                         </div>
-                        <button onClick={()=> deleteItem(index)}><img src={elips}></img></button>
+                        <button onClick={()=> deleteItem(index)}><img src={elips} alt='not'></img></button>
                       </div>
                     </li>
                   )

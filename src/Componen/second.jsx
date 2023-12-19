@@ -95,7 +95,7 @@ export default function Second({visible, Onclose, AddToList}){
                                         <input className=" outline-none focus:border-2 caret-black w-full  placeholder:text-grey rounded-lg border bg-clear-/white border-green p-2" type="time" value={From.Time} name="Time" onChange={handleInputChange} />
                                     </div>
                                 </div> 
-                                <button type="sumbit" className="font-semibold text-xl bg-yellow flex px-6 py-2.5 justify-center items-center rounded-lg">Create now</button>
+                                <button type="sumbit" className="font-semibold text-xl bg-yellow w-full flex px-6 py-2.5 justify-center items-center rounded-lg">Create now</button>
                              </form>
                         </div>
                     </div>
