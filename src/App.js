@@ -6,7 +6,7 @@ import Modal from './Componen/Modal';
 
 const App = () =>{
   return(
-    <Router basename='/react-list'>
+    <Router basename="/react-to">
       <Routes>
         <Route path="/" element={<Tri />}/>
         <Route path="/h" element={<Home/>}/>
