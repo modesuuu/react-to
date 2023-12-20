@@ -65,8 +65,8 @@ export default function Second({visible, Onclose, AddToList}){
    
     return(
         <div id="Container">
-            <section className="fixed top-0 px-10 bg-black bg-opacity-30 h-screen w-full">
-                <div ref={up} className="fixed bottom-0 mx-auto px-4 bg-[#F7F2FA] rounded-t-3xl pb-9">
+            <section className="fixed top-0  bg-black bg-opacity-30 flex items-center justify-center h-screen container mx-auto">
+                <div ref={up} className="fixed bottom-0 px-4 bg-[#F7F2FA] rounded-t-3xl pb-9">
                     <div className="flex py-4 flex-col items-center">
                         <button onClick={Onclose} className=" opacity-40 rounded-full w-8 h-1 bg-btn"></button>
                     </div>
@@ -94,9 +94,9 @@ export default function Second({visible, Onclose, AddToList}){
                                         <h1 className="flex-[1_0_0%] text-clear-/green text-xl font-semibold">Time</h1>
                                         <input className=" outline-none focus:border-2 caret-black w-full  placeholder:text-grey rounded-lg border bg-clear-/white border-green p-2" type="time" value={From.Time} name="Time" onChange={handleInputChange} />
                                     </div>
+                                    <button type="sumbit" className="font-semibold text-xl bg-yellow w-full flex px-6 py-2.5 justify-center items-center rounded-lg">Create now</button>
                                 </div> 
-                                <button type="sumbit" className="font-semibold text-xl bg-yellow w-full flex px-6 py-2.5 justify-center items-center rounded-lg">Create now</button>
-                             </form>
+                            </form>
                         </div>
                     </div>
                 </div>

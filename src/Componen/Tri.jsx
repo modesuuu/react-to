@@ -64,14 +64,14 @@ export default function Tri(){
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
 
         {/* Navbar */}
-        <nav className="container mx-auto" x-data="{navOpen : true}">
+        <nav className="container" x-data="{navOpen : true}">
           <div className="pt-3 px-4 lg:hidden">
             <a>
               <img  src={togle} alt="not" /> 
             </a>
           </div>
 
-          <section className=" fixed bg-clear-/white pt-2 pb-4 bottom-0 lg:float-left lg:top-0 lg:left-0 lg:w-[72px] lg:bg-green lg:flex lg:justify-between lg:py-8 lg:items-center lg:flex-col lg:h-full " x-data="{open : false}" x-show="navOpen">
+          <section className=" fixed w-full bg-clear-/white pt-2 pb-4 bottom-0 lg:float-left lg:top-0 lg:left-0 lg:w-[72px] lg:bg-green lg:flex lg:justify-between lg:py-8 lg:items-center lg:flex-col lg:h-full ">
             {/* avatar */}
             <div className="hidden lg:block">
               <div className="bg-white p-2 flex items-start rounded-xl ">
@@ -79,7 +79,7 @@ export default function Tri(){
               </div>  
             </div>
 
-            <ul className="flex justify-center px-5 mx-auto gap-8 lg:items-center lg:gap-12 lg:flex-col lg:content-center">
+            <ul className="flex w-full justify-center items-center mx-auto gap-[30px] lg:items-center lg:gap-12 lg:flex-col lg:content-center">
                 <li className="link flex justify-center flex-col items-center gap-px lg:text-white text-clear-/green active:text-black">
                   <button>
                     <i className='bx bx-home text-2xl'></i>
@@ -94,8 +94,8 @@ export default function Tri(){
                     </button>
                   </li>
 
-                <li className="link flex justify-center flex-col items-center gap-0.5 -mt-14 -ml-2 lg:mt-0">
-                  <button onClick={()=> Setmodal(true)} className="p-2.5 bg-yellow rounded-xl flex items-center">
+                <li className="link flex justify-center flex-col items-center gap-0.5 -mt-14  lg:mt-0">
+                  <button onClick={()=> Setmodal(true)} className="p-2.5 w-full bg-yellow rounded-xl flex items-center">
                     <i className='bx bx-plus text-2xl' ></i>
                   </button>
                     {/*  <p className="text-yellow self-stretch">New list</p> */}
