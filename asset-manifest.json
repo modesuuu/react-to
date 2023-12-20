@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-to/static/css/main.215a1870.css",
-    "main.js": "/react-to/static/js/main.3ad75d8c.js",
+    "main.css": "/react-to/static/css/main.07cde0a7.css",
+    "main.js": "/react-to/static/js/main.ab124ddf.js",
     "static/js/787.9c86b36b.chunk.js": "/react-to/static/js/787.9c86b36b.chunk.js",
     "static/media/date.svg": "/react-to/static/media/date.3eb47d3e7ff993182f068398e258b927.svg",
     "static/media/card now.svg": "/react-to/static/media/card now.e1409e9d9c3c27876a7bc8781ed618c6.svg",
     "index.html": "/react-to/index.html",
     "static/media/menu.svg": "/react-to/static/media/menu.defefed5cd1048769ef854935af29b6d.svg",
-    "main.215a1870.css.map": "/react-to/static/css/main.215a1870.css.map",
-    "main.3ad75d8c.js.map": "/react-to/static/js/main.3ad75d8c.js.map",
+    "main.07cde0a7.css.map": "/react-to/static/css/main.07cde0a7.css.map",
+    "main.ab124ddf.js.map": "/react-to/static/js/main.ab124ddf.js.map",
     "787.9c86b36b.chunk.js.map": "/react-to/static/js/787.9c86b36b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.215a1870.css",
-    "static/js/main.3ad75d8c.js"
+    "static/css/main.07cde0a7.css",
+    "static/js/main.ab124ddf.js"
   ]
 }
